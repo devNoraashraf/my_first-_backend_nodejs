@@ -26,5 +26,5 @@ app.use('/', userRoutes);
 
 // نشغل السيرفر
 app.listen(PORT, () => {
-  console.log(`السيرفر شغال على http://localhost:${PORT}`);
+  console.log(` http://localhost:${PORT}`);
 });
